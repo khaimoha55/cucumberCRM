@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.015554">
+<testcase classname="Free crm creat contacts" name="Free crm create a new contact scenario" time="21.015554">
+<failure message="java.lang.Error: Unresolved compilation problem: &#10;&#9;flag1 cannot be resolved to a variable&#10;&#13;&#10;&#9;at step_def.LoginStepDefinition.Then_contactsLabel_is_displayed(LoginStepDefinition.java:72)&#13;&#10;&#9;at ✽.Then contactsLabel is displayed(C:/Users/sameena fatima/eclipse-workspace/cumtest/src/main/java/features/contacts.feature:11)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "mohammadk" and "Sameena55"................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user click on contacts link............................................passed
+Then contactsLabel is displayed.............................................failed
+Then user move to new contact page..........................................skipped
+Then username is displayed..................................................skipped
+Then user enters contact details "tom" and "peter" and "<company>"..........skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+java.lang.Error: Unresolved compilation problem: 
+	flag1 cannot be resolved to a variable
+
+	at step_def.LoginStepDefinition.Then_contactsLabel_is_displayed(LoginStepDefinition.java:72)
+	at ✽.Then contactsLabel is displayed(C:/Users/sameena fatima/eclipse-workspace/cumtest/src/main/java/features/contacts.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

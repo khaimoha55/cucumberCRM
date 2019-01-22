@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Free crm create a new contact scenario",
+        "description": "",
+        "id": "free-crm-creat-contacts;free-crm-create-a-new-contact-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11776269107,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31376783,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1681789016,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"mohammadk\" and \"Sameena55\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mohammadk",
+                  "offset": 13
+                },
+                {
+                  "val": "Sameena55",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5573476744,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24917694,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1926764813,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on contacts link",
+            "match": {
+              "location": "LoginStepDefinition.Then_user_click_on_contacts_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 960166,
+              "error_message": "java.lang.Error: Unresolved compilation problem: \n\tflag1 cannot be resolved to a variable\n\r\n\tat step_def.LoginStepDefinition.Then_contactsLabel_is_displayed(LoginStepDefinition.java:72)\r\n\tat ✽.Then contactsLabel is displayed(C:/Users/sameena fatima/eclipse-workspace/cumtest/src/main/java/features/contacts.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "contactsLabel is displayed",
+            "match": {
+              "location": "LoginStepDefinition.Then_contactsLabel_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user move to new contact page",
+            "match": {
+              "location": "LoginStepDefinition.user_move_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "username is displayed",
+            "match": {
+              "location": "LoginStepDefinition.Then_username_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user enters contact details \"tom\" and \"peter\" and \"\u003ccompany\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 29
+                },
+                {
+                  "val": "peter",
+                  "offset": 39
+                },
+                {
+                  "val": "\u003ccompany\u003e",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_contact_details_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free crm creat contacts",
+    "description": "",
+    "id": "free-crm-creat-contacts",
+    "keyword": "Feature",
+    "uri": "C:/Users/sameena fatima/eclipse-workspace/cumtest/src/main/java/features/contacts.feature"
+  }
+]
